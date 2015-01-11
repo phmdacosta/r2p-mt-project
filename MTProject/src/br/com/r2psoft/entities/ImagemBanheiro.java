@@ -11,7 +11,7 @@ public class ImagemBanheiro {
 
 	private long id;
 	private byte imagem;
-	private boolean flagAtiva;
+	private boolean ativa;
 	private long tamArqImagem;
 	private String tipoArqImagem;
 	
@@ -47,15 +47,15 @@ public class ImagemBanheiro {
 	/**
 	 * @return the flagAtiva
 	 */
-	public boolean isFlagAtiva() {
-		return flagAtiva;
+	public boolean isAtiva() {
+		return ativa;
 	}
 	
 	/**
 	 * @param flagAtiva the flagAtiva to set
 	 */
-	public void setFlagAtiva(boolean flagAtiva) {
-		this.flagAtiva = flagAtiva;
+	public void setAtiva(boolean ativa) {
+		this.ativa = ativa;
 	}
 	
 	/**
