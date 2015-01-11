@@ -7,8 +7,8 @@ package br.com.r2psoft.entities;
 public class Endereco {
 	
 	private long id;
-	private double localVertical;
-	private double localHorizontal;
+	private double longitude;
+	private double latitude;
 	private String descricao;
 	private int numero;
 	private String complemento;
@@ -31,29 +31,29 @@ public class Endereco {
 	/**
 	 * @return the localVertical
 	 */
-	public double getLocalVertical() {
-		return localVertical;
+	public double getLongitude() {
+		return longitude;
 	}
 	
 	/**
 	 * @param localVertical the localVertical to set
 	 */
-	public void setLocalVertical(double localVertical) {
-		this.localVertical = localVertical;
+	public void setLongitude(double longitude) {
+		this.longitude = longitude;
 	}
 	
 	/**
 	 * @return the localHorizontal
 	 */
-	public double getLocalHorizontal() {
-		return localHorizontal;
+	public double getLatitude() {
+		return latitude;
 	}
 	
 	/**
 	 * @param localHorizontal the localHorizontal to set
 	 */
-	public void setLocalHorizontal(double localHorizontal) {
-		this.localHorizontal = localHorizontal;
+	public void setLatitude(double latitude) {
+		this.latitude = latitude;
 	}
 	
 	/**
