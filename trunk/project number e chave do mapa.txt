@@ -1,0 +1,3 @@
+701478994437 - código do projeto do google cloud que eu criei, que será utilizado para mensagens push
+
+AIzaSyD_c5cHItAirHHTmdmgkztavhBWo9mG4_I - chave de api do google cloud para usar o mapa no projeto

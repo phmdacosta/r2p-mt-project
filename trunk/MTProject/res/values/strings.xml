@@ -3,5 +3,7 @@
 
     <string name="app_name">MyToilet</string>
     <string name="hello_world">Hello world!</string>
+    <string name="strTitulo">My Toilet</string>
+    <string name="btnProcurar">Procurar</string>
 
 </resources>
