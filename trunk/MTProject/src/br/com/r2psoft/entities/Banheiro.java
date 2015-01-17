@@ -10,6 +10,7 @@ public class Banheiro {
 	private String titulo;
 	private String descricao;
 	
+	private Endereco endereco;
 	
 	/**
 	 * @return the id
@@ -51,5 +52,19 @@ public class Banheiro {
 	 */
 	public void setDescricao(String descricao) {
 		this.descricao = descricao;
+	}
+
+	/**
+	 * @return the endereco
+	 */
+	public Endereco getEndereco() {
+		return endereco;
+	}
+
+	/**
+	 * @param endereco the endereco to set
+	 */
+	public void setEndereco(Endereco endereco) {
+		this.endereco = endereco;
 	}
 }
