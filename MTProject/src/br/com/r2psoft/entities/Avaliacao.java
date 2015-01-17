@@ -15,6 +15,8 @@ public class Avaliacao {
 	private String tipoAvaliacao;
 	private Date dataPostagem;
 	
+	private Banheiro banheiro;
+	
 	
 	/**
 	 * @return the id
@@ -98,5 +100,19 @@ public class Avaliacao {
 	 */
 	public void setDataPostagem(Date dataPostagem) {
 		this.dataPostagem = dataPostagem;
+	}
+
+	/**
+	 * @return the banheiro
+	 */
+	public Banheiro getBanheiro() {
+		return banheiro;
+	}
+
+	/**
+	 * @param banheiro the banheiro to set
+	 */
+	public void setBanheiro(Banheiro banheiro) {
+		this.banheiro = banheiro;
 	}
 }

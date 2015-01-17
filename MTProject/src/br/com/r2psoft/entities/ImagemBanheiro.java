@@ -15,6 +15,7 @@ public class ImagemBanheiro {
 	private long tamArqImagem;
 	private String tipoArqImagem;
 	
+	private Banheiro banheiro;
 	
 	/**
 	 * @return the id
@@ -84,5 +85,19 @@ public class ImagemBanheiro {
 	 */
 	public void setTipoArqImagem(String tipoArqImagem) {
 		this.tipoArqImagem = tipoArqImagem;
+	}
+
+	/**
+	 * @return the banheiro
+	 */
+	public Banheiro getBanheiro() {
+		return banheiro;
+	}
+
+	/**
+	 * @param banheiro the banheiro to set
+	 */
+	public void setBanheiro(Banheiro banheiro) {
+		this.banheiro = banheiro;
 	}
 }
