@@ -1,12 +1,12 @@
 package br.com.r2psoft.mtproject;
 
-
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.Button;
+import android.widget.Toast;
 
 public class MainActivity extends Activity implements OnClickListener {
 
@@ -24,6 +24,9 @@ public class MainActivity extends Activity implements OnClickListener {
 		// TODO Auto-generated method stub
 		Intent it = new Intent(this, SearchMapActivity.class);
 		startActivity(it);
+		/*Toast.makeText(MainActivity.this,
+				"ImageButton (selector) is clicked!",
+				Toast.LENGTH_SHORT).show();*/
 	}     
     
 }
